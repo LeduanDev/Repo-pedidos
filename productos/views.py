@@ -1,8 +1,13 @@
+
 from django.shortcuts import render
-
-
-
+from productos.models import Producto, Categoria
 
 
 def inicio(request):
-    return render (request, 'paginas/index.html')
+    producto = Producto.objects.all()
+    context = {
+        'producto': producto
+    }
+    return render (request, 'paginas/index.html', context)
+
+
