@@ -21,7 +21,7 @@
   .tarjeta{
     width: 300px;
     height: 350px;
-    background: rgb(160, 76, 255);
+    background: #58107a;
     position: relative;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -67,7 +67,7 @@
     text-align: center;
     color: #fff;
     font-family: "open sans";
-    background: rgb(160, 76, 255);
+    background: #58107a;
   }
   
   .tarjeta-wrap:hover .tarjeta{
@@ -100,4 +100,4 @@
   font-family: "Open Sans", sans-serif;
 }
 
-  
+    
