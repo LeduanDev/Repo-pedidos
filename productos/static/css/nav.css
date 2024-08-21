@@ -20,7 +20,7 @@
   /* BARRA DE NAVEGACION */
   
   header { 
-    background: black;
+    background: rgb(160, 76, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@
   }
   
   .desplegable ul li a {
-    background: gray;
+    background: rgb(160, 76, 255);
     color: white;
     font-size: 0.8em;
     margin: 0;
