@@ -1,4 +1,6 @@
 /* Custom CSS for social icons */
+
+
 .social-icon {
     display: inline-block;
     width: 50px;
@@ -6,18 +8,34 @@
     line-height: 50px;
     margin: 0 10px;
     text-align: center;
-    color: white;
-    background-color: #333;
+    color: white; /* Asegura que el color del ícono sea blanco */
+    background-color: #333; /* Color de fondo oscuro */
     border-radius: 50%;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
     font-size: 24px;
+    border: 2px solid #555; /* Delineado de los íconos */
 }
 
 .social-icon:hover {
     transform: translateY(-5px); /* Efecto de flotación */
     background-color: #555; /* Cambio de color de fondo al hacer hover */
+    border-color: #777; /* Cambio de color del borde al hacer hover */
 }
 
 .social-icon i {
     vertical-align: middle; /* Centra el ícono verticalmente */
+}
+
+
+/* Footer Bottom Padding */
+footer {
+    padding-bottom: 20px; /* Espaciado adicional para evitar que el contenido se pegue al borde inferior */
+}
+
+@media (max-width: 768px) {
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
 }
