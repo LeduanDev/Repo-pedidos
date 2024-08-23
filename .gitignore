@@ -1,6 +1,6 @@
 /entorno/
 # 
-.gitignore
+/.gitignore/
 # Python
 *.pyc
 *.pyo
